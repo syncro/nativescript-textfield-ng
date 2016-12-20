@@ -1,0 +1,11 @@
+{
+   "name": "nativescript-textfield-ng",
+   "version": "0.0.1",
+   "main": "textfield-ng",
+   "nativescript": {
+       "platforms": {
+           "ios": "1.0.0",
+           "android": "1.1.0"
+       }
+   }
+}
