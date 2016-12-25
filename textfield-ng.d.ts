@@ -19,5 +19,10 @@ declare module "textfield-ng" {
 
         ios: any;
 
+        on(eventNames: string, callback: (data: observable.EventData) => void, thisArg?: any);
+
+        on(event: "focus", callback: (args: observable.EventData) => void, thisArg?: any);
+
+
     }
 }
