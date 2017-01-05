@@ -11,8 +11,6 @@ var TextFieldNg = (function (_super) {
     function TextFieldNg() {
         _super.call(this);
     }
-
-    TextFieldNg.focusEvent = "focus";
     return TextFieldNg;
 })(textField.TextField);
 
